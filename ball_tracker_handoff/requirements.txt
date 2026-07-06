@@ -1,0 +1,9 @@
+# Dependencies for ball_tracker.py (the ONLY things the other repo needs to track the ball)
+#
+# GPU (your RTX 4060): use onnxruntime-gpu and have CUDA 12 + cuDNN 9 on PATH.
+onnxruntime-gpu>=1.17.0
+# CPU-only alternative (comment out the line above, uncomment this one):
+# onnxruntime>=1.17.0
+
+numpy>=1.24
+opencv-python>=4.7

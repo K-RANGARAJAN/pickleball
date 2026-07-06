@@ -1,0 +1,40 @@
+# Weights and data (large / not source)
+data/weights/*.pt
+data/weights/*.pth
+data/samples/*.mp4
+data/samples/*.mov
+data/dataset_click/
+data/dataset_v1/
+data/labeling/
+
+# Source video clips (large)
+*.mp4
+*.mov
+best.pt
+
+# Run outputs
+runs/
+
+# Scratch / backups
+scripts/*.BACKUP.py
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+
+# build helpers / scratch
+notebooks/_build_*.py
+data/frames/
+data/auto_dataset/
+data/_dl/
+configs/live_cert.pem
+configs/live_key.pem
+
+# Dataset images (large / not source)
+dataset/

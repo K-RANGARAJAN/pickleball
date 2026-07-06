@@ -1,0 +1,21 @@
+# Pickleball LINECALL Model — multi-camera 3D line caller
+# Python 3.10+
+
+# Core CV / math
+numpy>=1.24
+opencv-python>=4.8
+
+# Detection
+ultralytics>=8.1        # YOLO (primary detector)
+torch>=2.1              # TrackNetV2 fallback
+torchvision>=0.16
+
+# Config / IO
+pyyaml>=6.0
+
+# Web app (Phase 6)
+fastapi>=0.110
+uvicorn>=0.27
+python-multipart>=0.0.9
+
+# Calibration / triangulation use opencv (cv2.solvePnP, cv2.triangulatePoints) — no extra dep.

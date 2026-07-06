@@ -1,0 +1,173 @@
+{
+ "cam1": {
+  "frame_idx": 961,
+  "image_w": 1920,
+  "image_h": 1080,
+  "corners": {
+   "far_left": [
+    888.8910181019105,
+    835.645529836836
+   ],
+   "far_right": [
+    1807.270320538911,
+    627.9950844014274
+   ],
+   "near_right": [
+    680.2896594854683,
+    469.6978261270579
+   ],
+   "near_left": [
+    93.9296964404448,
+    488.7020329685824
+   ]
+  },
+  "calibrated_via": "line_drag_auto",
+  "reproj_px": 6.83,
+  "well_calibrated": true,
+  "camera_position_ft": [
+   -9.0,
+   -12.8,
+   5.0
+  ],
+  "plausible": true,
+  "baseline": "far",
+  "edge_rms_px": {
+   "AB": 0.0,
+   "BC": 0.0,
+   "CD": 0.0,
+   "DA": 0.0
+  },
+  "corners_px": {
+   "far_left": [
+    888.9,
+    835.6
+   ],
+   "far_right": [
+    1807.3,
+    628.0
+   ],
+   "near_right": [
+    680.3,
+    469.7
+   ],
+   "near_left": [
+    93.9,
+    488.7
+   ]
+  }
+ },
+ "cam2": {
+  "frame_idx": 1578,
+  "image_w": 1920,
+  "image_h": 1080,
+  "corners": {
+   "far_left": [
+    677.7334923293417,
+    615.4510011836982
+   ],
+   "far_right": [
+    110.04394803876467,
+    664.0577676579251
+   ],
+   "near_right": [
+    664.8448632852275,
+    1060.3580908014026
+   ],
+   "near_left": [
+    1889.5665217424257,
+    784.3476379485805
+   ]
+  },
+  "calibrated_via": "line_drag_auto",
+  "reproj_px": 7.6,
+  "well_calibrated": true,
+  "camera_position_ft": [
+   25.2,
+   56.3,
+   4.7
+  ],
+  "plausible": true,
+  "baseline": "near",
+  "edge_rms_px": {
+   "AB": 0.0,
+   "BC": 0.0,
+   "CD": 0.0,
+   "DA": 0.0
+  },
+  "corners_px": {
+   "far_left": [
+    677.7,
+    615.5
+   ],
+   "far_right": [
+    110.0,
+    664.1
+   ],
+   "near_right": [
+    664.8,
+    1060.4
+   ],
+   "near_left": [
+    1889.6,
+    784.3
+   ]
+  }
+ },
+ "metric": {
+  "frame_idx": 17099,
+  "image_w": 1920,
+  "image_h": 1080,
+  "corners": {
+   "far_left": [
+    112.07969610567707,
+    727.2686191997391
+   ],
+   "far_right": [
+    1040.2406378569938,
+    969.3809738365123
+   ],
+   "near_right": [
+    1835.9916880513879,
+    648.9526385332321
+   ],
+   "near_left": [
+    1237.3109977240997,
+    594.520708118633
+   ]
+  },
+  "calibrated_via": "line_drag_auto",
+  "reproj_px": 5.68,
+  "well_calibrated": true,
+  "camera_position_ft": [
+   31.1,
+   -17.2,
+   6.3
+  ],
+  "plausible": true,
+  "baseline": "far",
+  "edge_rms_px": {
+   "AB": 0.0,
+   "BC": 0.0,
+   "CD": 0.0,
+   "DA": 0.0
+  },
+  "corners_px": {
+   "far_left": [
+    112.1,
+    727.3
+   ],
+   "far_right": [
+    1040.2,
+    969.4
+   ],
+   "near_right": [
+    1836.0,
+    649.0
+   ],
+   "near_left": [
+    1237.3,
+    594.5
+   ]
+  }
+ }
+}

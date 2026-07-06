@@ -1,0 +1,24 @@
+{
+  "_comment": "Shared world frame, feet. Ground plane z=0, height +z. Used by Phase 2 (solvePnP) and Phase 5 (in/out). 12 keypoints match the Roboflow keypoint model order from the old project.",
+  "court": {
+    "width_ft": 20,
+    "length_ft": 44,
+    "net_y_ft": 22,
+    "kitchen_far_y_ft": 15,
+    "kitchen_near_y_ft": 37
+  },
+  "keypoints_world_ft": [
+    {"idx": 0,  "name": "far_left_corner",    "x": 0,  "y": 0,  "z": 0},
+    {"idx": 1,  "name": "far_baseline_mid",   "x": 10, "y": 0,  "z": 0},
+    {"idx": 2,  "name": "far_right_corner",   "x": 20, "y": 0,  "z": 0},
+    {"idx": 3,  "name": "far_kitchen_left",   "x": 0,  "y": 15, "z": 0},
+    {"idx": 4,  "name": "far_kitchen_mid",    "x": 10, "y": 15, "z": 0},
+    {"idx": 5,  "name": "far_kitchen_right",  "x": 20, "y": 15, "z": 0},
+    {"idx": 6,  "name": "near_kitchen_left",  "x": 0,  "y": 37, "z": 0},
+    {"idx": 7,  "name": "near_kitchen_mid",   "x": 10, "y": 37, "z": 0},
+    {"idx": 8,  "name": "near_kitchen_right", "x": 20, "y": 37, "z": 0},
+    {"idx": 9,  "name": "near_left_corner",   "x": 0,  "y": 44, "z": 0},
+    {"idx": 10, "name": "near_baseline_mid",  "x": 10, "y": 44, "z": 0},
+    {"idx": 11, "name": "near_right_corner",  "x": 20, "y": 44, "z": 0}
+  ]
+}

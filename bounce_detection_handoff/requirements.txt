@@ -1,0 +1,2 @@
+# bounce_detector.py needs only numpy. No OpenCV / ONNX / TensorFlow required.
+numpy>=1.24
